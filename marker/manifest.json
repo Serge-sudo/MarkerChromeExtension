@@ -1,0 +1,31 @@
+{
+    "name": "Web-Marker",
+    "description": "Draw on website and change text",
+    "version": "1.0",
+    "offline_enabled": true,
+    "permissions": [
+        "activeTab",
+        "storage",
+        "contextMenus"
+    ],
+    "icons": {
+        "16": "icon.png",
+        "32": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png",
+        "256": "icon.png"
+    },
+    "browser_action": {
+        "default_icon": "icon.png",
+        "default_title": "Page Marker"
+    },
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+    "web_accessible_resources": [
+        "pen.png",
+        "eraser.png"
+    ],
+    "manifest_version": 2
+}
