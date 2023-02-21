@@ -1,1 +1,1 @@
-# google_extensions
+# Chrome Extension, for making permanent drawings on webpages
